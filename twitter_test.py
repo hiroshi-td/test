@@ -3,7 +3,6 @@ import twitter
 import os
 
 def getAuth():
-    #おっぱいそんのアプリ
     consumer_key = ""
     consumer_secret = ""
     token = ""
@@ -22,7 +21,7 @@ def main():
     status = "あ"
     if is_upload_img:
         # 画像付きツイート
-        filename = "IMG_20160420_131056.jpg"
+        filename = "test.JPG"
         base_path = os.path.dirname(os.path.abspath(__file__))
         # pic:画像のパス
         pic = os.path.normpath(os.path.join(base_path, './pic/' + filename))
